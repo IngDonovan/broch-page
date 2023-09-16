@@ -1,6 +1,5 @@
 import { EdnaProvider } from '../Context';
-import AppUI from './AppUI'
-import './App.scss'
+import AppUI from './AppUI';
 
 function App() {
 
@@ -13,4 +12,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
