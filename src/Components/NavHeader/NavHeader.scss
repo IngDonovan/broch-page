@@ -1,0 +1,15 @@
+@import '../../index.scss';
+
+header{
+    color: $TxColor-P;
+    margin-bottom: 20px;
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 16px 18px;
+        font-size: $tx-xxl;
+        font-weight: 400;
+        box-shadow: $sw-P;
+    }
+}
