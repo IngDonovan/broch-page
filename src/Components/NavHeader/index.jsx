@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import { NavLink } from "react-router-dom";
 import { EdnaContext } from "../../Context";
+import { TiThMenuOutline } from "react-icons/ti"
 
 import "./NavHeader.scss";
 
@@ -16,14 +17,16 @@ const NavHeader = () => {
               to="/"
               className="logo"
             >
-              Edna Gongora
+              <b>Edna</b> Gongora
             </NavLink>
           </span>
         </div>
         <div>
           <ul>
-            <li className="">
-                Contact
+            <li className="cont-menu">
+              <TiThMenuOutline className="menuIco" 
+                // onClick={toggleMenuMb}
+                />
             </li>
           </ul>
         </div>

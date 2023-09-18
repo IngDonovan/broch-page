@@ -8,8 +8,23 @@ header{
         justify-content: space-between;
         align-items: center;
         padding: 16px 18px;
-        font-size: $tx-xxl;
+        // background: $ln-Grad;
+        font-size: $tx-xl;
         font-weight: 400;
         box-shadow: $sw-P;
     }
+    .cont-menu{
+        display: flex;
+        padding: 7px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        background: $ln-Grad-P;
+        cursor: pointer;
+        box-shadow: $sw;
+    }
+    .menuIco:hover{
+        color: $pColor;
+    }
+
 }
