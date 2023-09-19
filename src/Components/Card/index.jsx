@@ -7,8 +7,8 @@ const Card = () => {
 
 
   return (
-    <article>
-        <picture>imagen
+    <article className="cardContainer">
+        <picture>
             <img src="" alt="" />
         </picture>
         <span>

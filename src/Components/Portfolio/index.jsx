@@ -18,7 +18,7 @@ const Portfolio = () => {
         </article>
         <aside>
             <h3>Servicios</h3>
-            <div>
+            <div className="cardScroll">
                 <Card />
             </div>
 
