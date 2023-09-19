@@ -1,6 +1,7 @@
 import { BrowserRouter, useRoutes } from 'react-router-dom';
 import NavHeader from '../Components/NavHeader';
 import Home from '../Pages/Home';
+import InfoFooter from '../Components/infoFooter';
 
 const AppRoutes = () => {
   let routes = useRoutes ([
@@ -17,6 +18,7 @@ function AppUI() {
       <BrowserRouter>
         <NavHeader />
         <AppRoutes />
+        <InfoFooter />
       </BrowserRouter>
     </>
   )
