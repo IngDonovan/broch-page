@@ -4,7 +4,9 @@ function Home() {
 
   return (
     <>
+      <main>
         <Portfolio />
+      </main>
     </>
   )
 }
