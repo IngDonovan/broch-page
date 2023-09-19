@@ -1,5 +1,6 @@
 // import { TiThMenuOutline } from "react-icons/ti"
 
+import Card from "../Card";
 import "./Portfolio.scss";
 
 const Portfolio = () => {
@@ -17,7 +18,10 @@ const Portfolio = () => {
         </article>
         <aside>
             <h3>Servicios</h3>
-            card
+            <div>
+                <Card />
+            </div>
+
         </aside>
     </section>
   );
