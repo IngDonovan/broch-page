@@ -1,10 +1,10 @@
-
+import Portfolio from "../../Components/PortFolio";
 
 function Home() {
 
   return (
     <>
-        <h1>Home</h1>
+        <Portfolio />
     </>
   )
 }
