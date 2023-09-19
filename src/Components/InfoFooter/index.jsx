@@ -9,7 +9,7 @@ const InfoFooter = () => {
   return (
     <footer>
         <ul>
-            <li>D</li>
+            <li><span>D</span></li>
             <li>D'loil SAS</li>
             <li>Sobre Nosotros</li>
             <li>Contacto</li>
