@@ -14,7 +14,7 @@ const InfoFooter = () => {
             <li>Sobre Nosotros</li>
             <li>Contacto</li>
         </ul>
-        <span>
+        <span className="designContainer">
             <p>Design by</p>
             <span>Ing DRM</span>
         </span>
