@@ -3,16 +3,16 @@
 
 import "./Card.scss";
 
-const Card = () => {
+const Card = ({data}) => {
 
 
   return (
     <article className="cardContainer">
         <picture>
-            <img src="" alt="" />
+            <img src={data.url} alt={data.title} />
         </picture>
         <span>
-            <p>Implementación de Sistemas de Gestión</p>
+            <p>{data.text}</p>
         </span>
     </article>
   );
