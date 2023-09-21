@@ -1,4 +1,5 @@
 import Portfolio from "../../Components/PortFolio";
+import Contact from "../../Components/Contact";
 
 function Home() {
 
@@ -6,6 +7,7 @@ function Home() {
     <>
       <main>
         <Portfolio />
+        <Contact />
       </main>
     </>
   )
