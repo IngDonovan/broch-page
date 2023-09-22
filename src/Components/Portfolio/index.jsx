@@ -28,7 +28,7 @@ const Portfolio = () => {
             </picture>
         </article>
         <aside>
-            <h3>Servicios</h3>
+            <h2>Servicios</h2>
             <div className="cardScroll">
                 {renderView()}
             </div>
