@@ -31,11 +31,70 @@ const EdnaProvider = ({ children }) => {
       text:'Otros',
       url:'https://s3-alpha-sig.figma.com/img/bfc2/f4b7/72a48e19f9ed9ea46873e23e685fafbf?Expires=1696204800&Signature=hsV2OtAJmb0KYUZd7AIN-DzllYQbu8DLeKgZE8aBsjUkGDFjX1OL56H-2FfOyXEbkaCTeoVblifoLgyyZyjKcTYnKXpEUealKoxqQubvQA3l2pwIPjvyfvCuQarruU4u8jFKXJdfoBjGOgLt7zrLZ7o2C6u1kgR~wQQZMyU5RYUx~VM~T~n8JP7R2u~wQRV0xPoiVukw7jig5qJn8y7qOHDYbvrrdjs8xAMRxynHoL6LyYYHv3OjoOCiq~3p97vhtRbpURUPCQPRQ~qUFNgiYkQornCHEoI28ShccGVMTcLhjzHjA-pU7dn1DtkstZSNE-bEtAgu3xoYp~sS7UtiUw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4',
     },
-  ]
+  ];
+
+  const listContact = [ 
+    {
+      id:1,
+      text: "Edna Yamile Gongora",
+      ico: "",
+    },
+    {
+      id:2,
+      text: "ednagoga75@hotmail.com",
+      ico: "",
+    },
+    {
+      id:3,
+      text: "+57 310 874 8061",
+      ico: "",
+    }
+  ];
+
+  const listSkills = [ 
+    {
+      id:1,
+      text:"Ing. de petróleos, con mas de 20 años de experiencia en Sistemas de Gestión.",
+    },
+    {
+      id:2,
+      text:"Especialista en gerencia de la salud ocupacional.",
+    },
+    {
+      id:3,
+      text:"Especialista en ingeniería ambiental.",
+    },
+    {
+      id:4,
+      text:"Master en Coaching en dirección empresarial.",
+    },
+    {
+      id:5,
+      text:"Auditor líder e interno en ISO 9001:2015, ISO 14001:2015 y 45001:2018.",
+    },
+    {
+      id:6,
+      text:"Auditor interno Norsok S-WA-006:2020",
+    },
+    {
+      id:7,
+      text:"Auditor interno ISO 39001:2012",
+    },
+    {
+      id:8,
+      text:"Auditor interno RUC Vs vigente.",
+    },
+    {
+      id:9,
+      text:"Auditor interno ISO 17024, Evaluación de la conformidad. requisitos generales para los organismos que realizan certificación de personas",
+    },
+  ];
 
   return (
     <EdnaContext.Provider
       value={{
+        listServices,
+        listContact,
         listServices,
       }}
     >
