@@ -95,7 +95,7 @@ const EdnaProvider = ({ children }) => {
       value={{
         listServices,
         listContact,
-        listServices,
+        listSkills,
       }}
     >
       {children}

@@ -1,2 +1,11 @@
 @import '../../index.scss';
 
+.contactContainer {
+    padding: 16px 16px;
+    div{
+        padding: 16px;
+    }
+    div:nth-child(odd){
+        
+    }
+}

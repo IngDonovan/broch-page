@@ -1,28 +1,51 @@
+import { useContext } from "react";
+import { EdnaContext } from "../../Context";
 import "./Contact.scss";
 
 const Contact = () => {
+  const {
+    listContact,
+    listSkills,
+  } = useContext(EdnaContext);
+
+  const viewContact = () => {
+    return (
+      listContact.map(data => (
+        <li key={data.id}>
+          <span>
+            ico
+          </span>
+          <p>{data.text}</p>
+        </li>
+      ))
+    )
+  }
+
+  const viewServices = () => {
+    return (
+      listSkills.map(data => (
+        <li key={data.id}>
+          {data.text}
+        </li>
+      ))
+    )
+  }
 
 
   return (
-    <section>
+    <section className="contactContainer">
         <div>
           <h2>Contacto</h2> 
           <span>
               <ul>
-                
-                <li>
-                  <picture>
-                    <img src="" alt="" />
-                  </picture>
-                  <p></p>
-                </li>
+                {viewContact()}
               </ul>
           </span>
         </div>
         <div>
           <h2>Sobre mi</h2>
           <ul>
-            <li></li>  
+            {viewServices()}
           </ul> 
         </div>
     </section>
