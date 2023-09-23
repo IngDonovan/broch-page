@@ -1,5 +1,5 @@
 
-// import { TiThMenuOutline } from "react-icons/ti"
+
 
 import "./Card.scss";
 

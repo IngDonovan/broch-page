@@ -37,17 +37,17 @@ const EdnaProvider = ({ children }) => {
     {
       id:1,
       text: "Edna Yamile Gongora",
-      ico: "",
+      ico: "IoMdContact",
     },
     {
       id:2,
       text: "ednagoga75@hotmail.com",
-      ico: "",
+      ico: "GrMail",
     },
     {
       id:3,
       text: "+57 310 874 8061",
-      ico: "",
+      ico: "IoLogoWhatsapp",
     }
   ];
 

@@ -5,7 +5,30 @@
     div{
         padding: 16px;
     }
-    div:nth-child(odd){
-        
+}
+
+.contactIco{
+    width: 25px;
+    height: 25px;
+    color: $pColor;
+}
+
+.contactPlace h2{
+    padding-bottom: 26px;
+}
+
+.contactPlace li{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 21px;
+    span{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 6px;
+        border-radius: 50%;
+        box-shadow: $sw;
+        background-color: gray;
     }
 }
