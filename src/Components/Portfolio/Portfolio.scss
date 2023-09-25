@@ -44,8 +44,10 @@ section {
     .cardScroll{
         display: flex;
         align-items: center;
+        // justify-content: center;
         padding: 16px;
         overflow-x: scroll;
         gap: 12px;
     }
+    //responsive
 }

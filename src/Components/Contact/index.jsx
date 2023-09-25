@@ -28,7 +28,7 @@ const Contact = () => {
     return (
       listContact.map(data => (
         <li key={data.id} className="">
-          <span>
+          <span className="viewContIco">
             {getIconComponent(data.ico)}
           </span>
           <p>{data.text}</p>
@@ -52,7 +52,7 @@ const Contact = () => {
     <section className="contactContainer">
         <div className="contactPlace">
           <h2>Contacto</h2> 
-          <span id="viewContactContainer">
+          <span>
               <ul>
                 {viewContact()}
               </ul>

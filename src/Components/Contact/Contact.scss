@@ -18,8 +18,15 @@
     padding-bottom: 26px;
 }
 
+.contactPlace span {
+    display: flex;
+    // background-color: gray;
+    align-items: center;
+    justify-content: center;
+}
+
 .contactPlace ul{
-    // background: gray;
+    width: 330px;
     display: flex;
     flex-direction: column;
     gap: 12px;
@@ -34,16 +41,16 @@
     justify-content: start;
     font-size: $tx-base;
     gap: 21px;
-    span{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 6px;
-        border-radius: 50%;
-        background: $ln-Grad-P;
-        box-shadow: $sw;
-        // background-color: gray;
-    }
+}
+.viewContIco{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+    border-radius: 50%;
+    background: $ln-Grad-P;
+    box-shadow: $sw;
+    // background-color: gray;
 }
 
 .contactService {
