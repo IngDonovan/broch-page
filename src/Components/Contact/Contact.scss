@@ -2,9 +2,6 @@
 
 .contactContainer {
     padding: 16px 16px;
-    div{
-        padding: 16px;
-    }
 }
 
 .contactIco{
@@ -17,10 +14,20 @@
     padding-bottom: 26px;
 }
 
+.contactPlace ul{
+    // background: gray;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 16px;
+    box-shadow: $sw;
+}
+
 .contactPlace li{
     display: flex;
     align-items: center;
     justify-content: start;
+    font-size: $tx-base;
     gap: 21px;
     span{
         display: flex;
@@ -28,6 +35,7 @@
         justify-content: center;
         padding: 6px;
         border-radius: 50%;
+        background: $ln-Grad-P;
         box-shadow: $sw;
         // background-color: gray;
     }

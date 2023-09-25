@@ -52,7 +52,7 @@ const Contact = () => {
     <section className="contactContainer">
         <div className="contactPlace">
           <h2>Contacto</h2> 
-          <span>
+          <span id="viewContactContainer">
               <ul>
                 {viewContact()}
               </ul>
