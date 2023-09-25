@@ -59,10 +59,13 @@ const Contact = () => {
           </span>
         </div>
         <div className="contactService">
-          <h2>Sobre mi</h2>
-          <ul>
-            {viewServices()}
-          </ul> 
+          <span>
+            <h2>Sobre mi</h2>
+            <ul>
+              {viewServices()}
+            </ul> 
+            <button>Descargar CV</button>
+          </span>
         </div>
     </section>
   );
