@@ -1,6 +1,4 @@
 
-
-
 import "./Card.scss";
 
 const Card = ({data}) => {
@@ -12,7 +10,8 @@ const Card = ({data}) => {
             <img src={data.url} alt={data.title} />
         </picture>
         <span>
-            <p>{data.text}</p>
+            <p>{data.title}</p>
+            
         </span>
     </article>
   );
