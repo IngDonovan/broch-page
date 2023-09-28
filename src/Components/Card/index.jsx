@@ -11,7 +11,6 @@ const Card = ({data}) => {
         </picture>
         <span>
             <p>{data.title}</p>
-            
         </span>
     </article>
   );
