@@ -7,7 +7,7 @@ const DetailService = () => {
 
   const viewDetailServices = () => {
     return listServices.map((data) => 
-        <span key={data.id} className="detailService">
+        <span key={data.id} className="detailService" id={`service${data.id}`}>
             <h2>{data.title}</h2>
             <ul>
               {data.detail ? (

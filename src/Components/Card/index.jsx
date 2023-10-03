@@ -5,14 +5,14 @@ const Card = ({data}) => {
 
 
   return (
-    <article className="cardContainer">
+    <a className="cardContainer" href={`#service${data.id}`}>
         <picture>
             <img src={data.url} alt={data.title} />
         </picture>
         <span>
             <p>{data.title}</p>
         </span>
-    </article>
+    </a>
   );
 };
 
