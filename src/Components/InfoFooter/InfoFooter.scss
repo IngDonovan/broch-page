@@ -1,26 +1,36 @@
 @import '../../index.scss';
 
 footer {
-    font-size: $tx-base;
+    font-size: $tx-sm;
     .dloiLogo{
         width: 55px;
         height: 55px;
     }
     ul{
-        padding: 12px;
+        padding: 16px;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         gap: 16px;
     }
+    li:hover{
+        color: $pColor;
+        cursor: pointer;
+    }
     .designContainer{
+        width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width: 100%;
         padding: 20px;
         background: $bg-T;
+        a{
+            color: $TxColor-S;
+        }
+        a:hover{
+            color: $TxColor-P;
+        }
     }
 }

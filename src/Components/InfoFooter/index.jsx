@@ -17,10 +17,13 @@ const InfoFooter = () => {
             <li>D'loil SAS</li>
             <li>Sobre Nosotros</li>
             <li>Contacto</li>
+
         </ul>
         <span className="designContainer">
-            <p>Design by</p>
-            <span>Ing DRM</span>
+            <a href="https://github.com/IngDonovan">
+              <p>Design by</p>
+              <span>{"{"} Ing DRM {"}"}</span>
+            </a>
         </span>
     </footer>
   );

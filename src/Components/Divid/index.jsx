@@ -5,7 +5,9 @@ const Divid = () => {
 
 
   return (
-    <picture><img src={separador} alt="" /></picture>
+    <picture className='imageDiv'>
+        <img src={separador} alt="" />
+    </picture>
   );
 };
 
