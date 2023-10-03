@@ -7,17 +7,23 @@ const DetailService = () => {
 
   const viewDetailServices = () => {
     return listServices.map((data) => 
-        <span key={data.id}>
-            <h2>{data.text}</h2>
+        <span key={data.id} className="detailService">
+            <h2>{data.title}</h2>
             <ul>
-                <li>lista</li>
+              {data.detail ? (
+                data.detail.map((detailItem, index) => (
+                  <li key={index}>{detailItem}</li>
+                ))
+              ) : (
+                <li>No hay detalles disponibles</li>
+              )}
             </ul>
         </span>
         );
   };
   return (
-    <section>
-
+    <section className="detailServiceContainer">
+      {viewDetailServices()}
     </section>
   );
 };

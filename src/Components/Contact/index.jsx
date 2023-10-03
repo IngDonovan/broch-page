@@ -37,7 +37,7 @@ const Contact = () => {
     )
   }
 
-  const viewServices = () => {
+  const viewSkills = () => {
     return (
       listSkills.map(data => (
         <li key={data.id}>
@@ -62,7 +62,7 @@ const Contact = () => {
           <span>
             <h2>Sobre mi</h2>
             <ul>
-              {viewServices()}
+              {viewSkills()}
             </ul> 
             <button>Descargar CV</button>
           </span>

@@ -20,7 +20,7 @@ const EdnaProvider = ({ children }) => {
         "RUC, Registro único de contratista ante el CCS (Consejo Colombiano de seguridad).",
         "Resolución 5018, 2019 (SST- Sector eléctrico).",
         "Res 20223040040595 de 2022 PESV.",
-      ]
+      ],
     },
     {
       id: 2,
@@ -35,8 +35,8 @@ const EdnaProvider = ({ children }) => {
         "RUC, Registro único de contratista ante el CCS (Consejo Colombiano de seguridad).",
         "Resolución 5018, 2019 (SST- Sector eléctrico).",
         "Res 20223040040595 de 2022 PESV.",
-        "DIAGNÓSTICO 17020:2012 rev.2020..",
-      ]
+        "DIAGNÓSTICO 17020:2012 rev.2020.",
+      ],
     },
     {
       id: 3,
@@ -47,7 +47,7 @@ const EdnaProvider = ({ children }) => {
         "Elaboración de procedimientos internos",
         "Establecimiento de comités: Copasst, Convivencia Laboral, comité de seguridad vial.",
         "Entre otros.",
-      ]
+      ],
     },
     {
       id: 4,
@@ -60,7 +60,7 @@ const EdnaProvider = ({ children }) => {
         "Acompañamiento en implementación de procesos.",
         "Diseño e implementación de programa",
         "Y otras actividades."
-      ]
+      ],
     },
     {
       id: 5,
