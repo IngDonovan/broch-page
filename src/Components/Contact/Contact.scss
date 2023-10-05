@@ -62,19 +62,29 @@
     span{
         display: flex;
         flex-direction: column;
+        align-items: center;
+        // background-color: blue;
         gap: 16px;
-    }
-    ul{
-        padding-top: 16px;
-        padding-left: 16px;
-        font-size: $tx-sm;
-        li{
-            list-style:disc;
-            // cursor:none;
+        h2{
+            align-self: self-start;
         }
-    }
-    button{
-        align-self: center;
-        justify-self: center;
+        ul{
+            // background: gray;
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding-top: 16px;
+            padding-left: 16px;
+            font-size: $tx-sm;
+            li{
+                list-style:disc;
+                // cursor:none;
+            }
+        }
+        button{
+            align-self: center;
+            justify-self: center;
+        }
     }
 }
