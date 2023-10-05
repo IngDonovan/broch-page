@@ -31,6 +31,9 @@ section {
                 object-fit: contain;
             }
         }
+        @media (min-width: 440px){
+            height: 50vh;
+        }
     }
     aside{
         background-color: $bg-S;
@@ -48,6 +51,12 @@ section {
         padding: 16px;
         overflow-x: scroll;
         gap: 12px;
+        @media (min-width: 780px){
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
     }
 
 }
+

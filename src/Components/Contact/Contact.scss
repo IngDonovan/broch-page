@@ -2,6 +2,12 @@
 
 .contactContainer {
     padding: 16px 0px;
+    @media (min-width: 680px){
+        display: flex;
+        // align-items: center;
+        justify-content: center;
+        gap: 25px;
+    }
 }
 
 .contactIco{
@@ -33,6 +39,10 @@
     border-radius: 12px;
     padding: 16px;
     box-shadow: $sw-box;
+    @media (min-width: 680px){
+        width: 100%;
+
+    }
 }
 
 .contactPlace li{
@@ -59,6 +69,14 @@
     background: $bg-S;
     // background-color: gray;
     padding: 16px;
+    @media (min-width: 680px){
+        width: 50vw;
+        max-width: 354px;
+        margin: 0px;
+        background: none;
+        // background-color: gray;
+        padding: 0px;
+    }
     span{
         display: flex;
         flex-direction: column;
@@ -80,6 +98,9 @@
             li{
                 list-style:disc;
                 // cursor:none;
+            }
+            @media (min-width: 440px){
+                width: 100%;
             }
         }
         button{
