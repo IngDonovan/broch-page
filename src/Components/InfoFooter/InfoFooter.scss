@@ -32,6 +32,10 @@ footer {
             gap: 50px;
         }
     }
+    .linksConect li:hover{
+        color: $pColor;
+        cursor: pointer;
+    }
     ul{
         padding: 16px;
         display: flex;
@@ -40,10 +44,7 @@ footer {
         justify-content: center;
         gap: 16px;
     }
-    li:hover{
-        color: $pColor;
-        cursor: pointer;
-    }
+
     .designContainer{
         width: 100%;
         display: flex;
