@@ -14,11 +14,11 @@ const InfoFooter = () => {
                 <img src={dloilogo} className="dloiLogo" alt="Dloil logo" />
               </span>
             </li>
-            <li className='linksConect'>
+            <ul className='linksConect'>
               <li>D'loil SAS</li>
               <li>Sobre Nosotros</li>
               <li>Contacto</li>
-            </li>
+            </ul>
 
         </ul>
         <span className="designContainer">

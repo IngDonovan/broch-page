@@ -17,6 +17,10 @@
     flex-direction: column;
     padding: 16px 18px;
     gap: 12px;
+    transition: transform 0.3s;
+    &:hover {
+        transform: scale(1.1);
+      }
 
     h2{
         width: 230px;

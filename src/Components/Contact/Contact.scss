@@ -4,7 +4,6 @@
     padding: 16px 0px;
     @media (min-width: 680px){
         display: flex;
-        // align-items: center;
         justify-content: space-evenly;
         gap: 25px;
     }
@@ -29,6 +28,10 @@
     // background-color: gray;
     align-items: center;
     justify-content: center;
+    transition: transform 0.3s;
+    &:hover {
+        transform: scale(1.1);
+      }
 }
 
 .contactPlace ul{
@@ -106,6 +109,10 @@
         button{
             align-self: center;
             justify-self: center;
+            transition: transform 0.3s;
+            &:hover {
+                transform: scale(1.1);
+              }
         }
     }
 }
