@@ -1,17 +1,5 @@
 @import '../../index.scss';
 
-.categories{
-    display: none;
-@media (min-width: 640px){
-    display: flex;
-}
-}
-.myAccount{
-    display: none;
-@media (min-width: 1024px){
-    display: flex;
-}
-}
 .detailServiceContainer{
     @media (min-width: 640px){
         display: grid;

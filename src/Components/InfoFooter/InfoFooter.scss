@@ -1,10 +1,36 @@
 @import '../../index.scss';
 
+
+.categories{
+    display: none;
+@media (min-width: 640px){
+    display: flex;
+}
+}
+.myAccount{
+    display: none;
+@media (min-width: 1024px){
+    display: flex;
+}
+}
+
 footer {
     font-size: $tx-sm;
     .dloiLogo{
         width: 55px;
         height: 55px;
+    }
+    .linksConect{
+        display: flex;  
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        @media (min-width: 640px){
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            gap: 50px;
+        }
     }
     ul{
         padding: 16px;
