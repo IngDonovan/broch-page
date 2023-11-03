@@ -31,6 +31,13 @@ const NavHeader = () => {
           </ul>
         </div>
       </nav>
+      <nav className="menu-bar">
+        <ul className="menu-bar-list">
+          <li>Contactame</li>
+          <li>Sobre mi</li>
+          <li>D´loil SAS</li>
+        </ul>
+      </nav>
     </header>
   );
 };
