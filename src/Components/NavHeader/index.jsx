@@ -7,6 +7,10 @@ import "./NavHeader.scss";
 
 const NavHeader = () => {
 
+  const {
+    isMenuMbOpen,
+    toggleMenuMb,
+  } = useContext(EdnaContext);
 
   return (
     <header>
@@ -25,17 +29,17 @@ const NavHeader = () => {
           <ul>
             <li className="cont-menu">
               <TiThMenuOutline className="menuIco" 
-                // onClick={toggleMenuMb}
+                onClick={toggleMenuMb}
                 />
             </li>
           </ul>
         </div>
       </nav>
-      <nav className="menu-bar">
+      <nav className={isMenuMbOpen ? "menu-bar" : "hidden"}>
         <ul className="menu-bar-list">
-          <li>Contactame</li>
+          <li>Contáctame</li>
           <li>Sobre mi</li>
-          <li>D´loil SAS</li>
+          <li>D'loil SAS</li>
         </ul>
       </nav>
     </header>

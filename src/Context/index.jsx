@@ -125,7 +125,9 @@ const EdnaProvider = ({ children }) => {
       text:"Auditor interno ISO 17024, Evaluación de la conformidad. requisitos generales para los organismos que realizan certificación de personas",
     },
   ];
-
+  //menu mobile open/close
+  const [isMenuMbOpen, setIsMenuMbOpen] = useState(false);
+  const toggleMenuMb = () => setIsMenuMbOpen(!isMenuMbOpen);
 
   return (
     <EdnaContext.Provider
@@ -133,6 +135,8 @@ const EdnaProvider = ({ children }) => {
         listServices,
         listContact,
         listSkills,
+        isMenuMbOpen,
+        toggleMenuMb,
       }}
     >
       {children}
