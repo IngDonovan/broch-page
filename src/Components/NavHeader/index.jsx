@@ -27,9 +27,9 @@ const NavHeader = () => {
         </div>
         <div>
           <ul>
-            <li className="cont-menu">
+            <li className="cont-menu"
+                onClick={toggleMenuMb}>
               <TiThMenuOutline className="menuIco" 
-                onClick={toggleMenuMb}
                 />
             </li>
           </ul>
@@ -37,9 +37,21 @@ const NavHeader = () => {
       </nav>
       <nav className={isMenuMbOpen ? "menu-bar" : "hidden"}>
         <ul className="menu-bar-list">
-          <li>Contáctame</li>
-          <li>Sobre mi</li>
-          <li>D'loil SAS</li>
+          <li>
+            <a href="#contactMe">
+              Contáctame
+            </a>
+          </li>
+          <li>
+            <a href="#aboutMe">
+              Sobre mi
+            </a>
+          </li>
+          <li>
+            <a href="/dloil">
+              D'loil SAS
+            </a>
+          </li>
         </ul>
       </nav>
     </header>

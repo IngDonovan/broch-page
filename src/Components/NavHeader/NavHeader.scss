@@ -22,20 +22,29 @@ header{
         background: $ln-Grad-P;
         cursor: pointer;
         box-shadow: $sw;
+        @media (min-width: 700px){
+            display: none;
+      }
     }
-    .menuIco:hover{
+    .cont-menu:hover{
         color: $pColor;
     }
     .menu-bar{
         background: $sColor;
-        color: $tColor;
         font-weight: 600;
+
     }
     .menu-bar-list{
         width: 100%;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
-
+        li{
+            cursor: pointer;
+            a{
+                color: $tColor;
+            }
+        
+        };
     }
 }

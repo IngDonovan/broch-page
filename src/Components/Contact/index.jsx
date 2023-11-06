@@ -50,7 +50,7 @@ const Contact = () => {
 
   return (
     <section className="contactContainer">
-        <div className="contactPlace">
+        <div className="contactPlace" id="contactMe">
           <h2>Contacto</h2> 
           <span>
               <ul>
@@ -58,7 +58,7 @@ const Contact = () => {
               </ul>
           </span>
         </div>
-        <div className="contactService">
+        <div className="contactService" id="aboutMe">
           <span>
             <h2>Sobre mi</h2>
             <ul>
