@@ -34,6 +34,25 @@ const NavHeader = () => {
             </li>
           </ul>
         </div>
+        <div className="navTablet">
+          <ul>
+            <li>
+              <a href="#contactMe">
+                Contáctame
+              </a>
+            </li>
+            <li>
+              <a href="#aboutMe">
+                Sobre mi
+              </a>
+            </li>
+            <li>
+              <a href="/dloil">
+                D'loil SAS
+              </a>
+            </li>
+          </ul>
+        </div>
       </nav>
       <nav className={isMenuMbOpen ? "menu-bar" : "hidden"}>
         <ul className="menu-bar-list">
